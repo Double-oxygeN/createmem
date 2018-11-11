@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="lib/download/download.js"></script>
+    <script type="text/javascript" src="build/createmem.js"></script>
+    <title>Memory-file creator</title>
+  </head>
+  <body>
+    <h1>Memory-file creator</h1>
+
+    <canvas id="main-canvas" width=400, height=400></canvas>
+
+    <br>
+
+    <input type="button" id="palette.mem" value="download palette.mem">
+    <input type="button" id="character.mem" value="download character.mem">
+
+    <br>
+
+    <input type="text" id="palette-color" pattern="^#[0-9A-Z]{3}$" value="#000" required>
+  </body>
+</html>

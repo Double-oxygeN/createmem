@@ -1,0 +1,3 @@
+[submodule "lib/download"]
+	path = lib/download
+	url = https://github.com/rndme/download.git
