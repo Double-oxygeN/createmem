@@ -2,7 +2,7 @@
 
 Memory-file creator for Verilog
 
-http://double-oxygen.net/createmem/
+https://gh.double-oxygen.net/createmem/
 
 ## License
 
